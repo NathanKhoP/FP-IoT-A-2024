@@ -2,12 +2,13 @@
 
 ## Prerequisites
 
-- YOLOv5
+- ESP32 (duh)
+- Python w/ YOLOv5
 - Arduino IDE
 
 ## How to Use
 
-After having YOLOv5 installed, copy `conn.py` there. Use it like you would use the `detect.py` file:
+If you have YOLOv5 installed, copy `conn.py` to the directory it's in (the directory where you cloned it). Use it like you would use the `detect.py` file:
 
 ```bash
 python3 conn.py --weights fp_iot_v3.pt --source 0 --conf 0.4
